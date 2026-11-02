@@ -1,0 +1,67 @@
+# ============================================================
+# CẤU HÌNH TRANG QUẢN TRỊ (Decap CMS)
+# Chỉ cần sửa 1 dòng duy nhất bên dưới: "repo:"
+# Thay TEN-GITHUB-CUA-BAN bằng tên tài khoản GitHub của bạn.
+# ============================================================
+backend:
+  name: github
+  repo: TEN-GITHUB-CUA-BAN/hang-mc-website
+  branch: main
+  commit_messages:
+    update: "Cập nhật {{slug}}"
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "noi-dung"
+    label: "Nội dung website"
+    editor:
+      preview: false
+    files:
+      - name: "highlights"
+        label: "Sự kiện tiêu biểu (timeline)"
+        file: "data/highlights.json"
+        format: "json"
+        fields:
+          - label: "Danh sách sự kiện"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.date}} – {{fields.title_vi}}"
+            hint: "Thêm sự kiện mới bằng nút 'Add'. Trang web tự sắp xếp theo năm.tháng."
+            fields:
+              - { label: "Năm.Tháng (ví dụ: 2026.11)", name: "date", widget: "string" }
+              - { label: "Tên sự kiện – tiếng Việt", name: "title_vi", widget: "string" }
+              - { label: "Tên sự kiện – tiếng Nhật", name: "title_ja", widget: "string" }
+              - { label: "Vai trò – tiếng Nhật (ví dụ: バイリンガルMC・通訳)", name: "role_ja", widget: "string" }
+
+      - name: "gallery"
+        label: "Hình ảnh hiện trường tiêu biểu"
+        file: "data/gallery.json"
+        format: "json"
+        fields:
+          - label: "Danh sách ảnh"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.date}} – {{fields.caption_vi}}"
+            hint: "Thêm ảnh mới bằng nút 'Add'. Trang web tự sắp xếp theo năm.tháng."
+            fields:
+              - { label: "Ảnh", name: "image", widget: "image" }
+              - { label: "Năm.Tháng (ví dụ: 2026.11)", name: "date", widget: "string" }
+              - { label: "Chú thích – tiếng Việt", name: "caption_vi", widget: "string" }
+              - { label: "Chú thích – tiếng Nhật", name: "caption_ja", widget: "string" }
+
+      - name: "testimonials"
+        label: "Đánh giá của khách hàng"
+        file: "data/testimonials.json"
+        format: "json"
+        fields:
+          - label: "Danh sách đánh giá"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.from_vi}}"
+            fields:
+              - { label: "Lời đánh giá – tiếng Nhật", name: "quote_ja", widget: "text" }
+              - { label: "Bản dịch – tiếng Việt", name: "quote_vi", widget: "text" }
+              - { label: "Người đánh giá – tiếng Nhật", name: "from_ja", widget: "string" }
+              - { label: "Người đánh giá – tiếng Việt", name: "from_vi", widget: "string" }

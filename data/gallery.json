@@ -1,0 +1,14 @@
+{
+  "items": [
+    { "date": "2018.01", "image": "/images/gallery/2018-01-golden-voice.jpg", "caption_vi": "Giọng ca vàng – Cuộc thi hát cho người Việt toàn Nhật Bản", "caption_ja": "ゴールデンボイス 全国ベトナム人歌唱コンテスト" },
+    { "date": "2018.03", "image": "/images/gallery/2018-03-miss-mister.jpg", "caption_vi": "Hoa hậu & Nam vương Doanh nhân Người Việt Thế giới", "caption_ja": "世界ベトナム人ビジネスパーソン ミス＆ミスター" },
+    { "date": "2018.06", "image": "/images/gallery/2018-06-shizuoka-100-nam.jpg", "caption_vi": "100 năm bia Asaba Sakitaro & 45 năm quan hệ ngoại giao Việt – Nhật", "caption_ja": "浅羽佐喜太郎公碑建立100年・日越国交樹立45周年記念行事" },
+    { "date": "2019.04", "image": "/images/gallery/2019-04-enshu-fukuroi.jpg", "caption_vi": "Giải bóng đá giao lưu quốc tế Enshu", "caption_ja": "国際交流サッカー大会 遠州（静岡県袋井市）" },
+    { "date": "2020.08", "image": "/images/gallery/2020-08-golden-voice.jpg", "caption_vi": "Giọng ca vàng 2020 – Cuộc thi hát cho người Việt toàn Nhật Bản", "caption_ja": "ゴールデンボイス 全国ベトナム人歌唱コンテスト" },
+    { "date": "2022.09", "image": "/images/gallery/2022-09-ctech.jpg", "caption_vi": "Khánh thành Tòa nhà Hiệu bộ N1 – CĐ CTECH", "caption_ja": "CTECHカレッジ 本部ビル開所式・入学式" },
+    { "date": "2024.03", "image": "/images/gallery/2024-03-erex-sakura.jpg", "caption_vi": "Lễ động thổ Nhà máy erex SAKURA", "caption_ja": "EREX SAKURA バイオマス燃料工場 起工式" },
+    { "date": "2024.03", "image": "/images/gallery/2024-03-hai-phong-15-nam.jpg", "caption_vi": "Kỷ niệm 15 năm Tập đoàn Hải Phong", "caption_ja": "ハイフォングループ 設立15周年記念式典" },
+    { "date": "2025.01", "image": "/images/gallery/2025-01-ocean-lantern.jpg", "caption_vi": "Phiên dịch song song – Lễ hội Đèn lồng Quốc tế Ocean", "caption_ja": "Ocean国際ランタンフェスティバル 同時通訳" },
+    { "date": "2025.12", "image": "/images/gallery/2025-12-aeon-beta.jpg", "caption_vi": "Khai trương rạp AEON BETA", "caption_ja": "AEON BETA 映画館 グランドオープン" }
+  ]
+}
