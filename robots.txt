@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /cam-on.html
+
+Sitemap: https://hothihang-mc.netlify.app/sitemap.xml

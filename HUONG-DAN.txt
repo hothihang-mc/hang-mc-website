@@ -76,3 +76,6 @@ PHẦN C – (TÙY CHỌN) TÊN MIỀN RIÊNG
 -----------------------------------------------------
   Nếu sau này mua tên miền (ví dụ hothihang.com), vào Netlify → Domain management → Add a domain
   và làm theo hướng dẫn. Nhớ cập nhật lại "Homepage URL" trong OAuth App trên GitHub (Bước 5a).
+  Sau khi có tên miền, thay địa chỉ https://hothihang-mc.netlify.app bằng tên miền mới trong
+  3 file: index.html (phần thẻ meta và dữ liệu có cấu trúc trong <head>), sitemap.xml và robots.txt
+  (có thể nhờ Claude làm), rồi gửi lại sitemap trong Google Search Console.
