@@ -79,3 +79,10 @@ PHẦN C – (TÙY CHỌN) TÊN MIỀN RIÊNG
   Sau khi có tên miền, thay địa chỉ https://hothihang-mc.netlify.app bằng tên miền mới trong
   3 file: index.html (phần thẻ meta và dữ liệu có cấu trúc trong <head>), sitemap.xml và robots.txt
   (có thể nhờ Claude làm), rồi gửi lại sitemap trong Google Search Console.
+
+-----------------------------------------------------
+GHI CHÚ KỸ THUẬT (không cần thao tác)
+-----------------------------------------------------
+  - netlify.toml + build.js: mỗi lần web cập nhật (kể cả khi đăng từ /admin), Netlify tự ghi sẵn
+    nội dung Sự kiện, Hình ảnh, Đánh giá vào trang để Google đọc được. Không xóa 2 file này.
+  - googlef3ae45b1819ac43e.html: tệp xác minh Google Search Console. Không xóa.
