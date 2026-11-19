@@ -76,9 +76,10 @@ PHẦN C – (TÙY CHỌN) TÊN MIỀN RIÊNG
 -----------------------------------------------------
   Nếu sau này mua tên miền (ví dụ hothihang.com), vào Netlify → Domain management → Add a domain
   và làm theo hướng dẫn. Nhớ cập nhật lại "Homepage URL" trong OAuth App trên GitHub (Bước 5a).
-  Sau khi có tên miền, thay địa chỉ https://hothihang-mc.netlify.app bằng tên miền mới trong
-  3 file: index.html (phần thẻ meta và dữ liệu có cấu trúc trong <head>), sitemap.xml và robots.txt
-  (có thể nhờ Claude làm), rồi gửi lại sitemap trong Google Search Console.
+  ĐÃ LÀM (19/11/2026): tên miền chính là https://www.hothihang.vn (mua tại iNET, đứng tên cá nhân
+  Hồ Thị Hằng; DNS quản lý ở iNET OneShield: A @ 75.2.60.5, CNAME www hothihang-mc.netlify.app,
+  cột "Bảo vệ" phải để TẮT). Địa chỉ cũ hothihang-mc.netlify.app tự chuyển về tên miền mới.
+  Trang quản trị: https://www.hothihang.vn/admin
 
 -----------------------------------------------------
 GHI CHÚ KỸ THUẬT (không cần thao tác)
